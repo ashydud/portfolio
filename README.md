@@ -6,4 +6,4 @@ My personal website with portfolio
 - [ ] Нужно создать Project в GitHub
 - [ ] В main push происходит через pull request
 - [ ] Нужно отдельной веткой запустить GitHub Page
-- [ ] Нужно сделать ashydud/.ashydud
+- [ ] Нужно сделать репозиторий ashydud/.ashydud
