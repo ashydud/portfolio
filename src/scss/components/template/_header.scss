@@ -1,6 +1,25 @@
-.container {
-	width: 100%;
-	max-width: 1370px;
-	padding: 0px 15px;
-	margin: 0px auto;
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 27px 60px 105px;
+	max-width: auto;
+
+	.nav {
+		display: flex;
+		align-items: center;
+		column-gap: 30px;
+
+		&-link {
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+
+			color: #000;
+
+			transition: all .3s linear;
+
+		}
+	}
 }

@@ -1,13 +1,23 @@
-.header {
+.button {
+    margin: 0;
+    padding: 0;
     display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	padding-top: 27px;
-	padding-bottom: 105px;
-}
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
 
-.header .nav {
-    display: flex;
-	align-items: center;
-	column-gap: 33px;
+    background-color: #ed0e0e;
+
+    &--width {
+        width: 100%;
+        background-color: #2b0d86;
+    }
+
+    &__element {
+        color: #fff;
+
+        &--plus {
+            color: green;
+        }
+    }
 }
