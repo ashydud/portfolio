@@ -27,7 +27,13 @@
 			}
 		}
 
-		&_link {}
+		&_link {
+			color: #00A8CC;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
 	}
 
 	&_list {
@@ -60,7 +66,7 @@
 		&_info {
 			display: flex;
 			align-items: center;
-			
+
 			&-date {
 				color: #21243D;
 				font-size: 18px;
@@ -90,4 +96,3 @@
 		}
 	}
 }
-
