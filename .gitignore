@@ -1,1 +1,5 @@
 node_modules
+dist
+gulp/version.json
+src/scss/components/_fonts.scss
+*.zip

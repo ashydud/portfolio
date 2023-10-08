@@ -1,0 +1,32 @@
+.btn {
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	user-select: none;
+	font-weight: 600;
+	font-size: 12px;
+	border-radius: 4px;
+	transition: 0.3s linear;
+	border: none;
+	text-decoration: none;
+	padding: 0;
+	background-color: transparent;
+
+	&-primary{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		color: #FFF;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+
+		padding: 17px 21px;
+		border-radius: 2px;
+		background: #FF6464;
+	}
+}
