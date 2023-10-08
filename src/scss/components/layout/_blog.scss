@@ -1,0 +1,98 @@
+.blog {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 0px 30px;
+	column-gap: 20px;
+	background: #EDF7FA;
+
+	&_container {
+		display: flex;
+		flex-direction: column;
+		row-gap: 40px;
+	}
+
+	&_header {
+		display: flex;
+		justify-content: space-between;
+
+		&_title {
+
+			h3 {
+				color: #21243D;
+				font-size: 22px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 60px;
+			}
+		}
+
+		&_link {
+			color: #00A8CC;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+
+	&_list {
+		display: flex;
+		column-gap: 20px;
+	}
+
+
+	.post {
+		display: flex;
+		flex-direction: column;
+		padding: 24px;
+		border-radius: 4px;
+		background-color: #FFF;
+		row-gap: 18px;
+		flex: 1 0;
+
+		&_title {
+
+
+			h3 {
+				color: #21243D;
+				font-size: 26px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+			}
+		}
+
+		&_info {
+			display: flex;
+			align-items: center;
+
+			&-date {
+				color: #21243D;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				padding: 0px 10px 0px 0px;
+			}
+
+			&-tag {
+				border-left: 1px solid #21243D;
+				padding: 0px 10px;
+				span:not(:last-child) {
+					&:after {
+						content: ",";
+					}
+				}
+			}
+		}
+
+		&_text {
+			color: #21243D;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+	}
+}
