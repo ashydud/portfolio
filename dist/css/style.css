@@ -94,7 +94,8 @@ h3 {
   display: flex;
   column-gap: 20px;
 }
-.blog .post {
+
+.post {
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -103,11 +104,11 @@ h3 {
   row-gap: 18px;
   flex: 1 0;
 }
-.blog .post_info {
+.post_info {
   display: flex;
   align-items: center;
 }
-.blog .post_info-date {
+.post_info-date {
   color: #21243D;
   font-size: 18px;
   font-style: normal;
@@ -115,14 +116,14 @@ h3 {
   line-height: normal;
   padding: 0px 10px 0px 0px;
 }
-.blog .post_info-tag {
+.post_info-tag {
   border-left: 1px solid #21243D;
   padding: 0px 10px;
 }
-.blog .post_info-tag span:not(:last-child):after {
+.post_info-tag span:not(:last-child):after {
   content: ",";
 }
-.blog .post_text {
+.post_text {
   color: #21243D;
   font-size: 16px;
   font-style: normal;
@@ -196,10 +197,26 @@ h3 {
 }
 
 .work_page {
-  margin-top: 90px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  row-gap: 18px;
+  row-gap: 40px;
+}
+
+.blog_page {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.blog_page .blog_posts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.blog_page .post {
+  padding: 0px 0px 20px;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 .header {
