@@ -1,4 +1,4 @@
-.container {
+.container, .container-small {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -9,6 +9,14 @@
 @each $screen, $layout in $screen-layout-container {
   @media (min-width: $screen) {
     .container {
+      max-width: $layout;
+    }
+  }
+}
+
+@each $screen, $layout in $screen-layout-container-small {
+  @media (min-width: $screen) {
+    .container-small {
       max-width: $layout;
     }
   }

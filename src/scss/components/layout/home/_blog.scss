@@ -16,16 +16,7 @@
 		display: flex;
 		justify-content: space-between;
 
-		&_title {
-
-			h3 {
-				color: #21243D;
-				font-size: 22px;
-				font-style: normal;
-				font-weight: 400;
-				line-height: 60px;
-			}
-		}
+		&_title {}
 
 		&_link {
 			color: #00A8CC;
@@ -51,17 +42,7 @@
 		row-gap: 18px;
 		flex: 1 0;
 
-		&_title {
-
-
-			h3 {
-				color: #21243D;
-				font-size: 26px;
-				font-style: normal;
-				font-weight: 700;
-				line-height: normal;
-			}
-		}
+		&_title {}
 
 		&_info {
 			display: flex;
@@ -79,6 +60,7 @@
 			&-tag {
 				border-left: 1px solid #21243D;
 				padding: 0px 10px;
+
 				span:not(:last-child) {
 					&:after {
 						content: ",";

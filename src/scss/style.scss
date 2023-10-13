@@ -6,9 +6,10 @@
 @import "components/mixins";
 
 // Layout
-@import "components/layout/home";
-@import "components/layout/blog";
-@import "components/layout/works";
+@import "components/layout/home/home";
+@import "components/layout/home/blog";
+@import "components/layout/home/works";
+@import "components/layout/works/works";
 
 // Template
 @import "components/template/header";
