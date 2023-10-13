@@ -1,0 +1,17 @@
+.blog_page {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+
+	.blog_posts {
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+	
+	.post {
+		padding: 0px 0px 20px;
+		border-bottom: 1px solid #E0E0E0;
+	}
+}
