@@ -46,7 +46,7 @@ h3 {
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 500;
-	// line-height: 60px;
+	line-height: normal;
 
 	@media (min-width: 576px) {
 		font-size: 24px;
@@ -55,14 +55,4 @@ h3 {
 	@media (min-width: 992px) {
 		font-size: 26px;
 	}
-}
-
-h3 {
-	margin: 0;
-	overflow-wrap: break-word;
-	color: #21243D;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: 60px;
 }
