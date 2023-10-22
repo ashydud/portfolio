@@ -2,8 +2,16 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	padding: 27px 60px 105px;
+	padding: 30px 30px 40px;
 	max-width: auto;
+
+	@media (min-width: 768px) {
+		padding: 27px 60px 80px;
+	}
+
+	@media (min-width: 1200px) {
+		padding: 27px 60px 105px;
+	}
 
 	.nav {
 		display: flex;

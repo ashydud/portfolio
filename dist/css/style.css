@@ -309,13 +309,25 @@ h3 {
 .works_container {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 28px;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .works_header {
+    display: flex;
+    align-self: flex-start;
+  }
 }
 .works_list {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .works_list {
+    row-gap: 40px;
+  }
 }
 
 .work {
@@ -326,22 +338,48 @@ h3 {
   flex-direction: column;
   row-gap: 15px;
 }
+@media (min-width: 768px) {
+  .work {
+    flex-direction: row;
+    padding-bottom: 30px;
+  }
+}
 .work_image {
   max-width: 100%;
   height: 200px;
   display: flex;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .work_image {
+    height: 200px;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .work_image {
+    height: 160px;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
 .work_image--img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .work_body {
   display: flex;
   flex-direction: column;
   flex: 1 0;
   row-gap: 10px;
+}
+@media (min-width: 992px) {
+  .work_body {
+    row-gap: 14px;
+  }
 }
 .work_info {
   display: flex;
@@ -358,6 +396,17 @@ h3 {
   background-color: #142850;
   border-radius: 16px;
 }
+@media (min-width: 992px) {
+  .work_info-date {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .work_info-date {
+    padding: 2px 12px;
+    align-items: center;
+  }
+}
 .work_info-tag {
   color: #8695A4;
   font-size: 18px;
@@ -371,6 +420,11 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+@media (min-width: 576px) {
+  .work_text {
+    font-size: 18px;
+  }
 }
 
 .work_page {
@@ -400,8 +454,18 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 27px 60px 105px;
+  padding: 30px 30px 40px;
   max-width: auto;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 27px 60px 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    padding: 27px 60px 105px;
+  }
 }
 .header .nav {
   display: flex;
