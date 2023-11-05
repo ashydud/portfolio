@@ -19,7 +19,7 @@
 		align-items: center;
 		justify-content: center;
 
-		color: #FFF;
+		color: var(--font-background-color);
 		font-size: 20px;
 		font-style: normal;
 		font-weight: 500;
@@ -27,6 +27,6 @@
 
 		padding: 17px 21px;
 		border-radius: 2px;
-		background: #FF6464;
+		background: var(--btn-color);
 	}
 }

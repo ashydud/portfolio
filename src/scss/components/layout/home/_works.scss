@@ -33,7 +33,7 @@
 
 .work {
 	display: flex;
-	border-bottom: 1px solid #E0E0E0;
+	border-bottom: 1px solid var(--border-color);
 	column-gap: 18px;
 	padding-bottom: 15px;
 	flex-direction: column;
@@ -95,13 +95,13 @@
 		column-gap: 26px;
 
 		&-date {
-			color: #FFF;
+			color: var(--font-background-color);
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 900;
 			line-height: normal;
 			padding: 2px 10px;
-			background-color: #142850;
+			background-color: var(--text-color);
 			border-radius: 16px;
 
 			@media (min-width: 992px) {
@@ -116,7 +116,7 @@
 		}
 
 		&-tag {
-			color: #8695A4;
+			color: var(--tag-color);
 			font-size: 18px;
 			font-style: normal;
 			font-weight: 400;
@@ -125,7 +125,7 @@
 	}
 
 	&_text {
-		color: #21243D;
+		color: var(--text-color);
 		font-size: 16px;
 		font-style: normal;
 		font-weight: 400;

@@ -1,5 +1,27 @@
-:root {
+@media (prefers-color-scheme: dark) {
+	:root {
+		--border-color: #E0E0E0;
+		--bg-color: #EDF7FA;
+		--link-color: #00A8CC;
+		--font-background-color: #FFF;
+		--tag-color: #8695A4;
+		--btn-color: #FF6464;
+		--text-color: #142850;
+	}
 }
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--border-color: #E0E0E0;
+		--bg-color: #EDF7FA;
+		--link-color: #00A8CC;
+		--font-background-color: #FFF;
+		--tag-color: #8695A4;
+		--btn-color: #FF6464;
+		--text-color: #142850;
+	}
+}
+
 
 * {
 	margin: 0;
@@ -9,6 +31,7 @@
 	border: 0;
 	text-decoration: none;
 	list-style: none;
+
 	&,
 	&::after,
 	&::before {

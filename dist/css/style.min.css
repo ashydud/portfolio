@@ -1,3 +1,25 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --border-color: #E0E0E0;
+    --bg-color: #EDF7FA;
+    --link-color: #00A8CC;
+    --font-background-color: #FFF;
+    --tag-color: #8695A4;
+    --btn-color: #FF6464;
+    --text-color: #142850;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --border-color: #E0E0E0;
+    --bg-color: #EDF7FA;
+    --link-color: #00A8CC;
+    --font-background-color: #FFF;
+    --tag-color: #8695A4;
+    --btn-color: #FF6464;
+    --text-color: #142850;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +45,7 @@
 h1 {
   margin: 0;
   overflow-wrap: break-word;
-  color: #21243D;
+  color: var(--text-color);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -47,7 +69,7 @@ h1 {
 h2 {
   margin: 0;
   overflow-wrap: break-word;
-  color: #21243D;
+  color: var(--text-color);
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -67,7 +89,7 @@ h2 {
 h3 {
   margin: 0;
   overflow-wrap: break-word;
-  color: #21243D;
+  color: var(--text-color);
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -131,7 +153,7 @@ h3 {
   }
 }
 .home_description p {
-  color: #21243D;
+  color: var(--text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -199,7 +221,7 @@ h3 {
   justify-content: space-between;
   padding: 30px 0px 30px;
   column-gap: 20px;
-  background: #EDF7FA;
+  background: var(--bg-color);
 }
 .blog_container {
   display: flex;
@@ -211,7 +233,7 @@ h3 {
   justify-content: space-between;
 }
 .blog_header_link {
-  color: #00A8CC;
+  color: var(---text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -235,7 +257,7 @@ h3 {
   flex-direction: column;
   padding: 18px 14px;
   border-radius: 4px;
-  background-color: #FFF;
+  background-color: var(--font-background-color);
   row-gap: 18px;
   flex: 1 0;
 }
@@ -256,7 +278,7 @@ h3 {
 }
 .post_info-date {
   width: 100%;
-  color: #21243D;
+  color: var(--text-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -270,20 +292,20 @@ h3 {
   }
 }
 .post_info-tag {
-  border-top: 1px solid #21243D;
+  border-top: 1px solid var(--text-color);
   padding-top: 10px;
   flex: 1 0;
   width: 100%;
 }
 @media (min-width: 768px) {
   .post_info-tag {
-    border-top: 1px solid #b5b6c1;
+    border-top: 1px solid var(--border-color);
   }
 }
 @media (min-width: 992px) {
   .post_info-tag {
     border-top: none;
-    border-left: 1px solid #21243D;
+    border-left: 1px solid var(--text-color);
     padding: 0px 10px;
   }
 }
@@ -291,7 +313,7 @@ h3 {
   content: ",";
 }
 .post_text {
-  color: #21243D;
+  color: var(--text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -332,7 +354,7 @@ h3 {
 
 .work {
   display: flex;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid var(--border-color);
   column-gap: 18px;
   padding-bottom: 15px;
   flex-direction: column;
@@ -387,13 +409,13 @@ h3 {
   column-gap: 26px;
 }
 .work_info-date {
-  color: #FFF;
+  color: var(--font-background-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
   padding: 2px 10px;
-  background-color: #142850;
+  background-color: var(--text-color);
   border-radius: 16px;
 }
 @media (min-width: 992px) {
@@ -408,14 +430,14 @@ h3 {
   }
 }
 .work_info-tag {
-  color: #8695A4;
+  color: var(--tag-color);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .work_text {
-  color: #21243D;
+  color: var(--text-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -447,7 +469,7 @@ h3 {
 }
 .blog_page .post {
   padding: 0px 0px 20px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .header {
@@ -477,7 +499,7 @@ h3 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: #000;
+  color: var(--link-color);
   transition: all 0.3s linear;
 }
 
@@ -486,7 +508,7 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 50px 0px 55px;
-  color: #21243D;
+  color: var(--text-color);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1233,12 +1255,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFF;
+  color: var(--font-background-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   padding: 17px 21px;
   border-radius: 2px;
-  background: #FF6464;
+  background: var(--btn-color);
 }
