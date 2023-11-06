@@ -1,21 +1,20 @@
 @media (prefers-color-scheme: dark) {
 	:root {
-		--border-color: #E0E0E0;
-		--bg-color: #EDF7FA;
-		--link-color: #00A8CC;
-		--font-background-color: #FFF;
-		--tag-color: #8695A4;
-		--btn-color: #FF6464;
-		--text-color: #142850;
+		--body-color: #0E1B28;
+		--border-color: #8997AB;
+		--bg-color: #252237;
+		--tag-color: #E2521D;
+		--btn-color: #E2521D;
+		--text-color: #fff;
+
 	}
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
+		--body-color: #FFF;
 		--border-color: #E0E0E0;
-		--bg-color: #EDF7FA;
-		--link-color: #00A8CC;
-		--font-background-color: #FFF;
+		--bg-color: #00A8CC;
 		--tag-color: #8695A4;
 		--btn-color: #FF6464;
 		--text-color: #142850;
@@ -31,12 +30,18 @@
 	border: 0;
 	text-decoration: none;
 	list-style: none;
+	font-family: 'Inter', sans-serif;
 
 	&,
 	&::after,
 	&::before {
 		box-sizing: border-box;
 	}
+}
+
+body {
+	background-color: var(--body-color);
+
 }
 
 $screen-layout-flexbox: (
@@ -73,7 +78,7 @@ $header-styles-desktop: (
 	"h3": 31,
 );
 
-/* 
+/*
 576
 768
 992

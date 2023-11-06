@@ -95,13 +95,13 @@
 		column-gap: 26px;
 
 		&-date {
-			color: var(--font-background-color);
+			color: var(--text-color);
 			font-size: 14px;
 			font-style: normal;
 			font-weight: 900;
 			line-height: normal;
 			padding: 2px 10px;
-			background-color: var(--text-color);
+			background-color: var(--tag-color);
 			border-radius: 16px;
 
 			@media (min-width: 992px) {
